@@ -101,8 +101,8 @@ void HX711_reset_lost(void)
 
 void HX711_set_gain(uint8_t gain_)
 {
-	if(gain - 1 < 3){	
-		gain = gain;
+	if(gain_ - 1 < 3){	
+		gain = gain_;
 	}
 }
 
